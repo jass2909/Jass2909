@@ -414,19 +414,6 @@ a:visited {
     background-size: cover;
     /* Resize the background image to cover the entire container */
 }
-.footer{
-    background-color: #212121;
-    width: 100vw;
-    margin: 0;
-    padding-block:1%;
-}
-.footer p a{
-    text-decoration: underline;
-    color: white;
-}
-a:visited{
-text-decoration: none;
-}
 
 
 
@@ -469,8 +456,8 @@ text-decoration: none;
     .grid-container {
         grid-template-columns: 1fr;
         /* One column */
-        grid-template-rows: repeat(4, 1fr);
-        /* Four rows */
+        grid-template-rows: repeat(4, 25%);
+        /* Four rows, each taking 25% of the viewport height */
     }
 
     .projectCard {
@@ -480,17 +467,15 @@ text-decoration: none;
     .aboutCard {
         width: 80%;
     }
-    
 
-
-
-
-
+    footer {
+        margin-top: 100%;
+    }
 }
 
 @media (min-width: 768px) {
     #CV {
         margin-top: 5%;
     }
-
 }
+
