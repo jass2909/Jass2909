@@ -302,6 +302,7 @@ p {
 
 .heading {
     font-size: 300%;
+   
 }
 
 #projects {
@@ -428,7 +429,7 @@ a:visited {
     }
 
     #CV {
-        margin-top: 30%;
+        margin-top: 40%;
     }
 
 
@@ -456,8 +457,8 @@ a:visited {
     .grid-container {
         grid-template-columns: 1fr;
         /* One column */
-        grid-template-rows: repeat(4, 25%);
-        /* Four rows, each taking 25% of the viewport height */
+        grid-template-rows: repeat(4, 1fr);
+        /* Four rows */
     }
 
     .projectCard {
@@ -471,7 +472,11 @@ a:visited {
     footer {
         margin-top: 100%;
     }
+    .CVcard {
+        margin-bottom: 5%;
+    }
 }
+
 
 @media (min-width: 768px) {
     #CV {
@@ -479,3 +484,6 @@ a:visited {
     }
 }
 
+.more{
+    padding-block: 1%;
+}
