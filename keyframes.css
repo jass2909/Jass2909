@@ -1,0 +1,25 @@
+@keyframes downUp {
+    50%{
+        transform: translateY(10%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+.downUp{
+    animation: downUp 3s infinite;
+    margin-top: 5%;
+}
+@keyframes changeText {
+    0% {
+      transform: translateY(-100px);
+    }
+    100% {
+      transform: translateY(0px);
+      color: rebeccapurple;
+    }
+  }
+
+  .changeText {
+    animation: changeText 1s ease-in forwards;
+  }

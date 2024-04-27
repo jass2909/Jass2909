@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="node_modules\aos\dist\aos.css">
+  <link rel="stylesheet" href="animations.css">
+  <link rel="stylesheet" href="keyframes.css">
+
+
+
+
+</head>
+
+<body>
+  <header id="header">
+    <nav class="navbar">
+      <div class="nav-left hvr-underline-from-center">
+        <button id="navBtn" class="nav-btn"><img class="imgSmall" src="imgs/menu.svg" alt=""></button>
+      </div>
+      <div class="nav-middle hvr-bounce-in ">
+        <span class="logo">JSK</span>
+      </div>
+      <div class="nav-right hvr-underline-from-center">
+        <a class="email-btn" href="mailto:jasmeetsk03@gmail.com"><img class="imgSmall" src="imgs/email.svg" alt=""></a>
+      </div>
+    </nav>
+  </header>
+  <div class="nav-menu" id="navMenu">
+    <ul>
+      <img id="close" class="imgSmall hvr-underline-from-center" src="imgs/close-svgrepo-com.svg" alt="">
+      <li><a class="hvr-underline-from-center" href="#about">About</a></li>
+      <li><a class="hvr-underline-from-center" href="#projects">Projects</a></li>
+      <li><a class="hvr-underline-from-center" href="Lebenslauf_Jasmeet.pdf">Download CV</a></li>
+
+    </ul>
+  </div>
+
+
+
+
+  <div class="intro JSK" data-aos="fade">
+    <div>
+      <div class="hvr-skew-forward">
+        <H1 id="helloText" d>Hello, I am</H1>
+      </div>
+      <div id="typing-text" data-aos="fade-right" data-aos-delay="50" class="hvr-skew-backward ">
+
+      </div>
+      <div class="downUp" id="down"><img src="imgs/down-2-svgrepo-com.svg" alt="" class="imgBig"></div>
+    </div>
+    <div>
+      <img src="imgs/undraw_coding_re_iv62.svg" alt="" class="introImg ">
+    </div>
+
+
+  </div>
+
+
+
+
+
+  <div id="about" class="info">
+    <div data-aos="fade">
+      <h1 class="heading">About me</h1>
+    </div>
+    <div class="flexRow">
+
+      <div class="card aboutCard" data-aos="fade">
+        <div>
+          <ul>
+            <li data-aos="fade" data-aos-delay="50">
+              <p>I'm Jasmeet Singh and currently studying computer science at the FH Campus University in Vienna,
+                Austria.</p>
+            </li>
+            <li data-aos="fade" data-aos-delay="100">
+              <p>I have a decent amount of experience in HTML, Css and Javascript and some basic knowledge of Java.</p>
+            </li>
+            <li data-aos="fade" data-aos-delay="150">
+              <p>I'm currently in my 2. Semester and should be done with my Bsc. in 2026</p>
+            </li>
+            <li data-aos="fade" data-aos-delay="200">
+              <p>I'm currently focusing on learning front-end developement to improve my skills further.</p>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="card socials tilt aboutCard" data-aos="fade">
+        <div>
+          <div data-aos="fade" data-aos-delay="50">
+            <h2>Reach me!</h2>
+          </div>
+          <div class="row">
+            <div data-aos="fade" data-aos-delay="200" class="card social linkedin"><a href=""></a></div>
+            <div data-aos="fade" data-aos-delay="300" class="card social email"><a class="" href=""></a></div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  <div id="projects" class="info">
+    <div>
+      <h1 data-aos="fade" class="heading">Projects so far...</h1>
+    </div>
+    <div class="projects">
+      <div class="projectCard card" data-aos="fade">
+        <div class="projectHeading">
+          <h3>FH Invaders</h3>
+        </div>
+        <div class="projectImg"><img src="imgs/space-invaders-pixel-retro-arcade-svgrepo-com.svg" alt=""></div>
+        <div class="content">
+          <p>A Space Invaders type game made for our Java project in winter 2023. <a
+              href="https://github.com/jass2909/FiveGuys">Link to Github Repo</a></p>
+        </div>
+      </div>
+      <div class="projectCard card" data-aos="fade">
+        <div class="projectHeading">
+          <h3>Top Clean</h3>
+        </div>
+        <div class="projectImg"><img src="imgs/cleaning-mop-svgrepo-com.svg" alt=""></div>
+        <div class="content">
+          <p>A basic Homepage i made for a cleaning company based in Vienna, Austria. <a
+              href="https://topclean1.at">Link to Website</a></p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2 data-aos="fade" class="more">There's more to come...</h2>
+    </div>
+
+  </div>
+
+  <div id="CV" class="info">
+    <div>
+      <h1 class="heading">Curriculum Vitae</h1>
+    </div>
+    <div class="CV grid-container">
+      <div class="CVcard card grid-item">
+        <div>
+          <h2>Education</h2>
+        </div>
+        <div>
+          <ul>
+            <li>Sep. 2023 - currently: <b>Bachelor Computer Science FH Campus Wien</b></li>
+            <li>2019-2023: <br> <b>WMS/BORG Anton-Krieger-Gasse Matura with focus on IT.</b></li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="CVcard card grid-item">
+        <div>
+          <h2>Working experience</h2>
+        </div>
+        <div>
+          <ul>
+            <li>Dez. 2023 - May 2024: <br> <b>Homeless Shelter Volkshilfe Wien Notquartier Nordlicht/Tageszentrum</b>
+            </li>
+            <li>Sep 2023 - Nov. 2023: <br> <b>Homeless shelter Wiener Rotes Kreuz</b></li>
+          </ul>
+        </div>
+      </div>
+      <div class="CVcard card grid-item">
+        <div>
+          <h2>Qualifications</h2>
+        </div>
+        <div>
+          <ul>
+            <li>Languages: English (B2), German (C1), Spanish (B1), Hindi (Mother tongue) & Punjabi (Mother tongue)
+            </li>
+            <li>Programming: <b>HTML, CSS, Javascript, C++, Java, Pytho</b></li>
+          </ul>
+        </div>
+      </div>
+      <div class="CVcard card grid-item">
+        <div>
+          <h2>Other</h2>
+        </div>
+        <div>
+          <ul>
+            <li>Drivers License Class B & A</li>
+            <li>First Aid Course 16h</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <footer>
+    <div class="footer">
+      <p>© Jasmeet Singh Kubar 2024 All rights reserved</p>
+      <p>This site was made with HTML, CSS and JS. Animate on Scroll JS library was used for the animations.</p>
+      <p><a href="https://www.linkedin.com/in/jasmeet-singh-kubar-119a241a3/">Linkedin</a> | <a
+          href="mailto:jasmeetsk03@gmail.com">E-Mail</a></p>
+    </div>
+  </footer>
+
+
+
+  <script src="index.js"></script>
+  <script src="node_modules\aos\dist\aos.js"></script>
+
+  <script>
+    AOS.init({
+      duration: 500,
+      easing: 'ease-in',
+      mirror: true,
+    });
+
+  </script>
+
+
+</body>
+
+</html>
